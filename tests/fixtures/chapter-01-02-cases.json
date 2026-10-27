@@ -1,0 +1,632 @@
+[
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S01-T01",
+    "input": "1",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S01-T02",
+    "input": "a!=0 и a!=4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S01-T03",
+    "input": "-3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S02-T01",
+    "input": "2/3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S02-T02",
+    "input": "(a-4)/b",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S02-T03",
+    "input": "Сокращают множители. При x=1 получаем 3/4, а не 2/3.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S03-T01",
+    "input": "4x/(x+2)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S03-T02",
+    "input": "(x-4)/3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S03-T03",
+    "input": "2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S04-T01",
+    "input": "3/(2x)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S04-T02",
+    "input": "2/(x^2-1)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S04-T03",
+    "input": "2/(ab)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S05-T01",
+    "input": "3/2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S05-T02",
+    "input": "4a^2/(9b^2)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S05-T03",
+    "input": "(x+3)^2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S06-T01",
+    "input": "2a/b^2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S06-T02",
+    "input": "x!=-3 и x!=1 и x!=2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S06-T03",
+    "input": "(x^2-9)/(x*(x+2))",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S07-T01",
+    "input": "3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S07-T02",
+    "input": "(x^2+x+3)/x",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S07-T03",
+    "input": "(x+y)/(x-y)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S08-T01",
+    "input": "-4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S08-T02",
+    "input": "-10",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S08-T03",
+    "input": "3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S09-T01",
+    "input": "3+2/x",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S09-T02",
+    "input": "A=2, B=3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S09-T03",
+    "input": "{-1;1;3;5}",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S11-T01",
+    "input": "0,9",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S11-T02",
+    "input": "5",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S11-T03",
+    "input": "Решений нет: левая часть неотрицательна. При x=-1 получаем 2, а не -2.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S12-T01",
+    "input": "{-4;4}",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S12-T02",
+    "input": "{-2;4}",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S12-T03",
+    "input": "2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S13-T01",
+    "input": "6;7",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S13-T02",
+    "input": "2,24",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S13-T03",
+    "input": "1,73²=2,9929<3<3,0276=1,74²; границы положительны, значит неравенство верно.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S14-T01",
+    "input": "4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S14-T02",
+    "input": "нет",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S14-T03",
+    "input": "[2;5]",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S15-T01",
+    "input": "3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S15-T02",
+    "input": "7/9",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S15-T03",
+    "input": "Нельзя: отдельные корни из отрицательных чисел не определены; левая часть равна 6.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S16-T01",
+    "input": "7",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S16-T02",
+    "input": "-x^3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S16-T03",
+    "input": "3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S17-T01",
+    "input": "6sqrt(2)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S17-T02",
+    "input": "-sqrt(18)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S17-T03",
+    "input": "a^2*sqrt(a)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S18-T01",
+    "input": "7sqrt(3)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S18-T02",
+    "input": "sqrt(5)-2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S18-T03",
+    "input": "sqrt(2)-1",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S19-T01",
+    "input": "2+sqrt(5)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S19-T02",
+    "input": "2-sqrt(3)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S19-T03",
+    "input": "5",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S01-T01",
+    "input": "0",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S01-T02",
+    "input": "a!=0",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S01-T03",
+    "input": "3",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S01-T03",
+    "input": "0/0",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S02-T01",
+    "input": "3/2",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S02-T02",
+    "input": "a-4/b",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S03-T01",
+    "input": "4x/(2x+4)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S03-T02",
+    "input": "(x+4)/3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S03-T03",
+    "input": "-2",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S04-T01",
+    "input": "2/(3x)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S04-T02",
+    "input": "0",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S04-T03",
+    "input": "2/(a+b)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S05-T01",
+    "input": "2/3",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S05-T02",
+    "input": "-4a^2/(9b^2)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S05-T03",
+    "input": "x^2+9",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S06-T01",
+    "input": "2a/b",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S06-T02",
+    "input": "x!=-3 и x!=1",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S06-T03",
+    "input": "(x^2-9)/(x+2)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S07-T01",
+    "input": "1",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S07-T02",
+    "input": "(x^2+x-3)/x",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S07-T03",
+    "input": "(x-y)/(x+y)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S08-T01",
+    "input": "4",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S08-T02",
+    "input": "-5/2",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S08-T03",
+    "input": "1/3",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S09-T01",
+    "input": "3+2",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S09-T02",
+    "input": "A=3, B=2",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-01",
+    "taskId": "C01-S09-T03",
+    "input": "{1;3;5}",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S11-T01",
+    "input": "-0,9",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S11-T02",
+    "input": "1",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S12-T01",
+    "input": "4",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S12-T02",
+    "input": "{2;4}",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S12-T03",
+    "input": "0",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S13-T01",
+    "input": "5;6",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S13-T02",
+    "input": "2,23",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S14-T01",
+    "input": "-4",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S14-T02",
+    "input": "да",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S14-T03",
+    "input": "[4;25]",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S15-T01",
+    "input": "5,6",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S15-T02",
+    "input": "-7/9",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S16-T01",
+    "input": "-7",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S16-T02",
+    "input": "x^3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S16-T03",
+    "input": "-3",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S17-T01",
+    "input": "36sqrt(2)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S17-T02",
+    "input": "sqrt(18)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S17-T03",
+    "input": "a*sqrt(a)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S18-T01",
+    "input": "sqrt(51)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S18-T02",
+    "input": "2-sqrt(5)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S18-T03",
+    "input": "1-sqrt(2)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S19-T01",
+    "input": "-2-sqrt(5)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S19-T02",
+    "input": "sqrt(3)-2",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-02",
+    "taskId": "C02-S19-T03",
+    "input": "7",
+    "status": "mismatch"
+  }
+]

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Почему у дроби появляется период</title><link rel="stylesheet" href="shared.css">
+<style>
+.presets,.actions{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.choice-btn[aria-pressed="true"]{border-color:var(--indigo);background:var(--indigo-lt);color:var(--indigo-dk)}.decimal{font-size:clamp(1.6rem,6vw,2.6rem);font-weight:800;letter-spacing:.04em;margin:16px 0}.period{color:var(--violet);border-bottom:3px solid var(--violet)}.step{display:grid;grid-template-columns:32px 1fr;gap:10px;padding:12px 0;border-bottom:1px solid var(--border)}.step-number{border-radius:50%;background:var(--indigo-lt);color:var(--indigo-dk);width:28px;height:28px;display:grid;place-items:center}.remainder{display:inline-block;border-radius:6px;padding:0 5px;background:var(--cyan-lt)}.reason{margin:14px 0;color:var(--indigo-dk);font-weight:650}.source-note{color:var(--muted);font-size:.78rem;margin-top:12px}button:disabled{opacity:.55;cursor:default}.panel{overflow-wrap:anywhere}
+</style></head><body>
+<h1>Почему у дроби появляется период</h1><p class="sub">Выбери дробь и дели по одному шагу. Следи за остатками: остановится ли деление или начнёт повторяться?</p>
+<div class="presets"><button class="choice-btn" id="repeating" type="button" aria-pressed="true">5/6 · ищем повтор</button><button class="choice-btn" id="finite" type="button" aria-pressed="false">4/25 · ищем конец</button></div>
+<section class="panel" aria-live="polite"><p id="caption"></p><p class="decimal" id="decimal"></p><div id="steps"></div><p class="reason" id="reason"></p></section>
+<div class="actions"><button class="choice-btn" id="next" type="button">Следующий шаг →</button><button class="choice-btn" id="restart" type="button">Сначала</button></div>
+<p class="takeaway">При делении целых чисел остаток либо станет нулём, либо повторится. Поэтому десятичная запись рационального числа конечная или периодическая. Бесконечная запись сама по себе не означает иррациональность.</p>
+<p class="source-note">Примеры из учебника Макарычева и др., 8 класс, 2024, пункт 10, стр. 64. Визуализация составлена для репетитора.</p>
+<script id="model">
+function divideFraction(n,d){
+ if(!Number.isInteger(n)||!Number.isInteger(d)||n<0||d<1||d>10000)throw Error('Нужна неотрицательная дробь со знаменателем от 1 до 10000');
+ const integer=Math.floor(n/d),seen=new Map(),steps=[];let remainder=n%d,digits='',repeatIndex=null;
+ while(remainder!==0){
+  if(seen.has(remainder)){repeatIndex=seen.get(remainder);break;}
+  seen.set(remainder,steps.length);
+  const divided=remainder*10,digit=Math.floor(divided/d),nextRemainder=divided%d;
+  steps.push({remainder,divided,digit,nextRemainder});digits+=digit;remainder=nextRemainder;
+ }
+ return {integer,digits,steps,repeatIndex};
+}
+</script><script>
+const $=id=>document.getElementById(id);let n=5,d=6,count=1;
+function render(){
+ const data=divideFraction(n,d),done=count>=data.steps.length;
+ $('caption').textContent=`Делим ${n} на ${d}. Целая часть — ${data.integer}.`;
+ $('decimal').replaceChildren(document.createTextNode(`${n}/${d} ${done?'=':'≈'} ${data.integer},`));
+ if(done&&data.repeatIndex!==null){const period=document.createElement('span');period.className='period';period.textContent=`(${data.digits.slice(data.repeatIndex)})`;$('decimal').append(document.createTextNode(data.digits.slice(0,data.repeatIndex)),period);}
+ else $('decimal').append(document.createTextNode(data.digits.slice(0,count)+(done?'':'…')));
+ $('steps').replaceChildren();
+ for(const [i,step] of data.steps.slice(0,count).entries()){
+  const row=document.createElement('div'),number=document.createElement('span'),text=document.createElement('div'),rest=document.createElement('span');row.className='step';number.className='step-number';number.textContent=i+1;rest.className='remainder';rest.textContent=step.nextRemainder;
+  text.append(document.createTextNode(`${step.remainder} × 10 = ${step.divided}; ${step.divided} : ${d} = ${step.digit}, остаток `),rest,document.createTextNode('.'));row.append(number,text);$('steps').append(row);
+ }
+ $('reason').textContent=!done?'Что произойдёт с остатком на следующем шаге?':data.repeatIndex===null?'Остаток стал нулём. Деление закончилось, запись конечная.':`Остаток ${data.steps[data.repeatIndex].remainder} уже встречался. Дальше повторятся те же действия и цифры. Период: ${data.digits.slice(data.repeatIndex)}.`;
+ $('next').disabled=done;$('repeating').setAttribute('aria-pressed',String(d===6));$('finite').setAttribute('aria-pressed',String(d===25));
+}
+$('next').onclick=()=>{count++;render();};$('restart').onclick=()=>{count=1;render();};$('repeating').onclick=()=>{n=5;d=6;count=1;render();};$('finite').onclick=()=>{n=4;d=25;count=1;render();};render();
+</script></body></html>

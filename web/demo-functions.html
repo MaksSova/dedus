@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>От формулы к графику</title><link rel="stylesheet" href="shared.css">
+<style>select{max-width:100%;padding:9px;border:1px solid var(--border);border-radius:9px;font:inherit;background:var(--bg);color:var(--text)}.controls{display:grid;gap:12px;margin-bottom:16px}svg{display:block;width:100%;height:auto;max-width:640px;margin:auto}.result{font-weight:700;color:var(--indigo-dk);margin:12px 0}.note{font-size:.8rem;color:var(--muted);margin-top:12px}.grid{stroke:var(--border);stroke-width:1}.axis{stroke:var(--muted);stroke-width:1.5}.curve{stroke:var(--indigo);stroke-width:3;fill:none}.point{fill:var(--violet);stroke:var(--bg);stroke-width:2}svg text{font:12px sans-serif;fill:var(--muted)}</style></head><body>
+<h1>От формулы к графику</h1><p class="sub">Выбери функцию и передвигай точку. Как меняется y, когда меняется x?</p>
+<div class="controls"><label for="function">Формула</label><select id="function"><option value="linear-up">y = 1,5x − 3</option><option value="linear-down">y = −0,6x + 5</option><option value="quadratic">y = 2x² − 6</option><option value="reciprocal">y = 1/x</option><option value="root">y = √x</option><option value="inverse-square">y = x⁻²</option></select><label for="x">Значение x: <output id="xValue">2</output></label><input id="x" type="range" min="-5" max="5" step="0.25" value="2"></div>
+<section class="panel"><svg id="graph" viewBox="0 0 480 360" role="img" aria-labelledby="graphTitle graphDesc"><title id="graphTitle">График выбранной функции</title><desc id="graphDesc">Окно от −5 до 5 по x и от −7 до 7 по y. Координаты выбранной точки приведены ниже.</desc><g id="grid"></g><g id="curves"></g><circle id="point" class="point" r="5"/></svg><div aria-live="polite"><p id="result" class="result"></p><p id="domain"></p></div></section>
+<p class="takeaway">Точка графика имеет координаты (x; y), где y вычислено по формуле. Сначала проверь, можно ли подставить выбранный x.</p><p class="note">На экране видна только часть графика. Рисунок помогает заметить закономерность, но не заменяет доказательство. Примеры по учебнику Макарычева и др., 2024, стр. 234–235, 250, 252–253, 275–277.</p>
+<script id="model">
+function functionValue(id,x){
+ if(!Number.isFinite(x))return null;
+ switch(id){case 'linear-up':return 1.5*x-3;case 'linear-down':return -.6*x+5;case 'quadratic':return 2*x*x-6;case 'reciprocal':return x===0?null:1/x;case 'root':return x<0?null:Math.sqrt(x);case 'inverse-square':return x===0?null:1/(x*x);default:return null;}
+}
+function graphSegments(id){
+ const segments=[];let segment=[];
+ for(let i=0;i<=1000;i++){const x=-5+i/100,y=functionValue(id,x);if(y===null||!Number.isFinite(y)||y< -7||y>7){if(segment.length)segments.push(segment);segment=[];}else segment.push([x,y]);}
+ if(segment.length)segments.push(segment);return segments;
+}
+</script><script>
+const $=id=>document.getElementById(id),ns='http://www.w3.org/2000/svg';
+const X=x=>40+(x+5)*40,Y=y=>320-(y+7)*20,fmt=n=>Number(n.toFixed(3)).toLocaleString('ru-RU');
+function element(tag,attributes,container,text){const el=document.createElementNS(ns,tag);for(const [k,v] of Object.entries(attributes))el.setAttribute(k,v);if(text!==undefined)el.textContent=text;container.append(el);return el;}
+for(let x=-5;x<=5;x++){element('line',{x1:X(x),x2:X(x),y1:40,y2:320,class:x===0?'axis':'grid'},$('grid'));element('text',{x:X(x),y:338,'text-anchor':'middle'},$('grid'),x);}
+for(let y=-7;y<=7;y++){element('line',{x1:40,x2:440,y1:Y(y),y2:Y(y),class:y===0?'axis':'grid'},$('grid'));if(y%2===0)element('text',{x:29,y:Y(y)+4,'text-anchor':'end'},$('grid'),y);}
+element('text',{x:454,y:Y(0)+4},$('grid'),'x');element('text',{x:X(0)+8,y:24},$('grid'),'y');
+function render(){
+ const id=$('function').value,x=Number($('x').value),y=functionValue(id,x);$('xValue').textContent=fmt(x);$('curves').replaceChildren();
+ for(const segment of graphSegments(id))element('path',{d:segment.map(([a,b],i)=>`${i?'L':'M'}${X(a)},${Y(b)}`).join(' '),class:'curve'},$('curves'));
+ const visible=y!==null&&y>=-7&&y<=7;$('point').style.display=visible?'':'none';if(visible){$('point').setAttribute('cx',X(x));$('point').setAttribute('cy',Y(y));}
+ $('result').textContent=y===null?`При x = ${fmt(x)} значение функции не определено.`:`x = ${fmt(x)}; y ${Math.abs(y-Number(y.toFixed(3)))>1e-10?'≈':'='} ${fmt(y)}${visible?'':'. Точка за пределами окна графика.'}`;
+ $('domain').textContent=id==='root'?'Область определения: x ≥ 0. Квадратный корень неотрицателен.':['reciprocal','inverse-square'].includes(id)?'Область определения: x ≠ 0. На ноль делить нельзя; ветви графика не соединяются через x = 0.':'Область определения: все действительные числа.';
+}
+$('function').addEventListener('change',render);$('x').addEventListener('input',render);render();
+</script></body></html>
+

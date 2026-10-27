@@ -1,0 +1,5 @@
+Official CA source: https://gu-st.ru/content/Other/doc/russian_trusted_root_ca.cer
+MAX requirement: https://dev.max.ru/docs-api
+Downloaded over verified HTTPS on 2026-10-27.
+Certificate DER SHA256: d26d2d0231b7c39f92cc738512ba54103519e4405d68b5bd703e9788ca8ecf31
+Scoped to MaxClient via MAX_CA_FILE; no OS trust store or OpenAI TLS changes.

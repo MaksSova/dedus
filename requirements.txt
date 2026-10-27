@@ -1,0 +1,2 @@
+# Python >= 3.11
+# No third-party pip dependencies. Only Python standard library is used.

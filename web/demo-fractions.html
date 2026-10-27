@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Сокращаем целый множитель</title><link rel="stylesheet" href="shared.css">
+<style>
+.formula{display:flex;align-items:center;justify-content:center;gap:12px;min-height:130px;font-size:clamp(20px,4vw,28px);flex-wrap:wrap}.fraction{display:inline-grid;text-align:center;gap:5px}.bottom{border-top:2px solid var(--text);padding-top:6px}.factor{background:var(--indigo-lt);color:var(--indigo-dk);border:2px solid var(--indigo);border-radius:8px;padding:1px 4px}.cancel{text-decoration:line-through}.controls{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}button{font:inherit;padding:9px 14px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);cursor:pointer}button:disabled{opacity:.45;cursor:default}.step{color:var(--muted);font-size:.85rem}.panel p{margin:8px 0}.check{margin-top:16px}#explanation{min-height:80px}.takeaway{margin-top:18px}
+</style></head><body>
+<h1>Сокращаем целый множитель</h1>
+<p class="sub">Отдельный пример: двигайся по шагам и следи за одинаковыми скобками.</p>
+<section class="panel" aria-live="polite"><p class="step" id="step"></p><div class="formula" id="formula"></div><p id="explanation"></p><p><b>Условие сохраняется на каждом шаге: x ≠ −3.</b></p></section>
+<div class="controls"><button type="button" id="prev">← Назад</button><button type="button" id="next">Следующий шаг →</button><button type="button" id="reset">Сначала</button></div>
+<section class="panel check"><label for="x">Проверим на числе: x = <output id="xValue">5</output></label><input id="x" type="range" min="-5" max="5" step="1" value="5"><p id="check" aria-live="polite"></p></section>
+<p class="takeaway">Сокращаем одинаковые ненулевые множители целиком; отдельные слагаемые вычёркивать нельзя.</p>
+<script id="model">
+function fractionExample(x){if(!Number.isFinite(x)||x===-3)return null;return {before:(x*x-9)/(2*x+6),after:(x-3)/2};}
+</script>
+<script>
+const steps=[
+ ['x²−9','2x+6','В таком виде сверху и снизу стоят разности и суммы. Сначала превратим их в произведения.'],
+ ['(x−3)(x+3)','2(x+3)','Сверху разность квадратов: x²−3² = (x−3)(x+3). Снизу выносим 2 за скобки: 2x+6 = 2(x+3).'],
+ ['(x−3)·<span class="factor">(x+3)</span>','2·<span class="factor">(x+3)</span>','Рамкой и цветом отмечен один и тот же множитель: вся скобка (x+3). Делим на неё и числитель, и знаменатель; при x ≠ −3 она не равна нулю.'],
+ ['x−3','2','Одинаковые множители сократились. Остались x−3 сверху и 2 снизу, но исходное ограничение x ≠ −3 осталось.']
+];
+let step=0;const $=id=>document.getElementById(id);
+function render(){const s=steps[step];$('formula').innerHTML='<span class="fraction"><span>'+s[0]+'</span><span class="bottom">'+s[1]+'</span></span>';$('explanation').textContent=s[2];$('step').textContent='Шаг '+(step+1)+' из 4';$('prev').disabled=step===0;$('next').disabled=step===3;check();}
+function check(){const x=Number($('x').value),v=fractionExample(x);$('xValue').textContent=x;$('check').textContent=v?'До сокращения: '+v.before+'. После сокращения: '+v.after+'. Значения совпадают.':'При x = −3 исходный знаменатель равен нулю. Это значение исключено, даже после сокращения.';}
+$('prev').onclick=()=>{step=Math.max(0,step-1);render();};$('next').onclick=()=>{step=Math.min(3,step+1);render();};$('reset').onclick=()=>{step=0;$('x').value=5;render();};$('x').oninput=check;render();
+</script></body></html>

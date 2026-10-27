@@ -1,0 +1,560 @@
+[
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S20-T01",
+    "input": "x=-3; x=3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S20-T02",
+    "input": "x=0; x=4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S20-T03",
+    "input": "корней нет",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S21-T01",
+    "input": "x=1; x=-1/3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S21-T02",
+    "input": "x=3/2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S21-T03",
+    "input": "0",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S22-T01",
+    "input": "6",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S22-T02",
+    "input": "6",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S22-T03",
+    "input": "9",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S23-T01",
+    "input": "x=3; x=5",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S23-T02",
+    "input": "10",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S23-T03",
+    "input": "x²-3x-10=0",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S24-T01",
+    "input": "x=-1/2; x=2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S24-T02",
+    "input": "(x-3)²+2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S24-T03",
+    "input": "3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S25-T01",
+    "input": "2(x-2)(x-3)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S25-T02",
+    "input": "3(x+2)²",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S25-T03",
+    "input": "x-3; x≠2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S26-T01",
+    "input": "x=-2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S26-T02",
+    "input": "x=-3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S26-T03",
+    "input": "x=1-√2; x=1+√2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S27-T01",
+    "input": "10",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S27-T02",
+    "input": "2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S27-T03",
+    "input": "6",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S28-T01",
+    "input": "да",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S28-T02",
+    "input": "-4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S28-T03",
+    "input": "3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S29-T01",
+    "input": "1",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S29-T02",
+    "input": "0",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S29-T03",
+    "input": "бесконечно много",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S30-T01",
+    "input": "(1;2); (-2;-1)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S30-T02",
+    "input": "1",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S30-T03",
+    "input": "(-2;4); (2;4)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S31-T01",
+    "input": "(1;2); (2;1)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S31-T02",
+    "input": "(4;2); (-4;-2)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S31-T03",
+    "input": "решений нет",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S32-T01",
+    "input": "4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S32-T02",
+    "input": "300",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S32-T03",
+    "input": "да",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S33-T01",
+    "input": "a≠0: x=6/a; a=0: решений нет",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S33-T02",
+    "input": "a≠2: x=a+2; a=2: x∈R",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S33-T03",
+    "input": "1",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S34-T01",
+    "input": ">",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S34-T02",
+    "input": ">",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S34-T03",
+    "input": "<",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S35-T01",
+    "input": "12<P<15",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S35-T02",
+    "input": ">",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S35-T03",
+    "input": "(1/5;1/2)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S36-T01",
+    "input": "8<x+y<11",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S36-T02",
+    "input": "-4<x-y<-1",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S36-T03",
+    "input": "8<xy<15",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S37-T01",
+    "input": "{1;2;4}",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S37-T02",
+    "input": "{1;3;4;5}",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S37-T03",
+    "input": "{0;2}",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S38-T01",
+    "input": "[1;4]",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S38-T02",
+    "input": "{2}",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S38-T03",
+    "input": "(-∞;4]",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S39-T01",
+    "input": "x>4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S39-T02",
+    "input": "x≤-3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S39-T03",
+    "input": "решений нет",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S40-T01",
+    "input": "3<x<5",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S40-T02",
+    "input": "{2}",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S40-T03",
+    "input": "решений нет",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S41-T01",
+    "input": "a²+4−4a=(a−2)²≥0 при любом действительном a. Следовательно, a²+4≥4a. Равенство возможно и достигается ровно при a=2.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S41-T02",
+    "input": "a+1/a−2=(a²−2a+1)/a=(a−1)²/a. Числитель неотрицателен, знаменатель положителен при a>0, значит разность неотрицательна. Равенство достигается ровно при a=1.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S41-T03",
+    "input": "Все корни и знаменатели определены и положительны. Разность равна (√(a+2)−√(a+1))−(√(a+3)−√(a+2))=1/(√(a+2)+√(a+1))−1/(√(a+3)+√(a+2)). Первый положительный знаменатель строго меньше второго, поэтому первая дробь строго больше второй. Разность положительна при всех a≥0; равенство не достигается.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S20-T01",
+    "input": "x=3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S20-T02",
+    "input": "x=4",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S21-T03",
+    "input": "2",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S22-T01",
+    "input": "-8",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S25-T01",
+    "input": "(x-2)(x-3)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S25-T03",
+    "input": "x-3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S26-T01",
+    "input": "x=-2; x=4",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S26-T02",
+    "input": "x=3; x=-3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S26-T03",
+    "input": "x=1+√2",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S27-T01",
+    "input": "0",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S31-T02",
+    "input": "(4;-2); (-4;2)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S33-T01",
+    "input": "x=6/a",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-03",
+    "taskId": "C03-S33-T02",
+    "input": "x=a+2",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S34-T02",
+    "input": "<",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S35-T02",
+    "input": "<",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S35-T03",
+    "input": "[1/5;1/2]",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S36-T02",
+    "input": "-2<x-y<-3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S37-T03",
+    "input": "{0}",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S38-T02",
+    "input": "∅",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S38-T03",
+    "input": "(-∞;4)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S39-T01",
+    "input": "x≥4",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S39-T02",
+    "input": "x≥-3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S40-T02",
+    "input": "∅",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S40-T03",
+    "input": "x=2",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S41-T01",
+    "input": "Проверил a=0 и a=1, значит верно всегда.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S41-T02",
+    "input": "a=1",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-04",
+    "taskId": "C04-S41-T03",
+    "input": "При a=0 левая часть примерно 2,83, правая 2,73.",
+    "status": "unknown"
+  }
+]

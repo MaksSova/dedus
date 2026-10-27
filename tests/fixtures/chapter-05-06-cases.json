@@ -1,0 +1,350 @@
+[
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S42-T01",
+    "input": "2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S42-T02",
+    "input": "x!=-4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S42-T03",
+    "input": "[0;9]",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S43-T01",
+    "input": "-1",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S43-T02",
+    "input": "[0;4]",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S43-T03",
+    "input": "Для x2>x1 разность значений x2-x1>0, поэтому функция возрастает, хотя значения отрицательны.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S44-T01",
+    "input": "4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S44-T02",
+    "input": "x<3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S44-T03",
+    "input": "Для любых x2>x1 разность f(x2)-f(x1)=-3(x2-x1)<0. Значит, функция убывает.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S45-T01",
+    "input": "x>=0",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S45-T02",
+    "input": "3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S45-T03",
+    "input": "Нет: -1<1, но f(-1)=-2<2=f(1). Функция убывает лишь отдельно на двух полуосях.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S46-T01",
+    "input": "-7",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S46-T02",
+    "input": "1/4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S46-T03",
+    "input": "-3/2<=x<-1",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S47-T01",
+    "input": "1/16",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S47-T02",
+    "input": "-27/8",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S47-T03",
+    "input": "x!=-3 и x!=3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S48-T01",
+    "input": "a^3",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S48-T02",
+    "input": "b^4/(4a^6)",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S48-T03",
+    "input": "1/2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S49-T01",
+    "input": "6,42*10^6",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S49-T02",
+    "input": "7,2*10^-5",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S49-T03",
+    "input": "-5",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S50-T01",
+    "input": "<",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S50-T02",
+    "input": "100000",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S50-T03",
+    "input": "1,2*10^9",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S51-T01",
+    "input": "-1/4",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S51-T02",
+    "input": "1/2",
+    "status": "match"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S51-T03",
+    "input": "Умножаем на положительное x² и получаем x<1, что дано; преобразования равносильны.",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S42-T01",
+    "input": "-14",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S42-T02",
+    "input": "x!=4",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S42-T02",
+    "input": "x=-4",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S42-T03",
+    "input": "[4;9]",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S43-T02",
+    "input": "[0;9]",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S44-T02",
+    "input": "x<=3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S45-T01",
+    "input": "x>0",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S45-T02",
+    "input": "-3",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S45-T02",
+    "input": "3/0",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S46-T01",
+    "input": "-6",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S46-T02",
+    "input": "-0,75",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S46-T02",
+    "input": "0,75",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-05",
+    "taskId": "C05-S46-T03",
+    "input": "-3/2<=x<=-1",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S47-T01",
+    "input": "-16",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S47-T02",
+    "input": "27/8",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S47-T03",
+    "input": "x!=3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S47-T03",
+    "input": "x>=3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S48-T01",
+    "input": "a^-3",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S48-T02",
+    "input": "b^4/(2a^6)",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S48-T03",
+    "input": "2",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S49-T01",
+    "input": "64,2*10^5",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S49-T02",
+    "input": "7,2*10^5",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S49-T03",
+    "input": "-3",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S50-T01",
+    "input": ">",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S50-T02",
+    "input": "0,00001",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S50-T03",
+    "input": "12*10^8",
+    "status": "unknown"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S51-T01",
+    "input": "1/4",
+    "status": "mismatch"
+  },
+  {
+    "packId": "algebra-chapter-06",
+    "taskId": "C06-S51-T02",
+    "input": "0",
+    "status": "mismatch"
+  }
+]
